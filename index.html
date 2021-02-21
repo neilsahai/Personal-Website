@@ -1,106 +1,110 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Neil Sahai Portfolio Website</title>
-<meta http-equiv="X-UA-Compatible" content="IE-edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="images/icon.jpg">
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<head>
+    <meta charset="utf-8">
+    <title>Neil Sahai Portfolio Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 
-	<!--main-section---------------------->
-	<section id="main1">
-			<!--background-img---------------->
-			<div class="bg">
-					<img src="images/bg2.png" />
-			</div>
-			<!--text--------------------->
-			<div class="text">
-				<p>Neil Sahai</p>
-					<strong> The Experienced <span class="type"></span></strong>
-
-					<a href="resume.pdf" class="btn">Download resume</a>
-			</div>
-	</section>
-
-
-
-	<!--type.js---------------->
-	<script src="js/typed.min.js"></script>
-	<!--script------------------->
-	<script>
-			var typed = new Typed('.type', {
-
-	strings: ['Professional', 'Computer Scientist','Entepreneur','Problem Solver'],
-	typeSpeed:100,
-	backSpeed:70,
-	loop:true,
-	});
-	</script>
+    <!--main-section---------------------->
+    <section id="main1">
+        <!--background-img---------------->
+        <div class="bg">
+            <img src="images/bg2.png" />
+        </div>
+        <!--text--------------------->
+        <div class="text">
+            <p>Neil Sahai</p>
+            <strong> I am <span class="type"></span></strong>
+            <div>
+                <h3>Technical Skills</h3>
+                <p style="color: #000">Data Structures and Algorithms JavaScript - Java - Python - C++ - React HTML - CSS - MySQL - Git - AWS </p>
+            </div>
+            <a target="_blank" href="resume.pdf" class="btn">Download resume</a>
+        </div>
 
 
 
+    </section>
 
-	<nav>
+    <!--type.js---------------->
+    <script src="js/typed.min.js"></script>
+    <!--script------------------->
+    <script>
+        var typed = new Typed('.type', {
 
-	<a href="#" class="logo"><img class="logosize" src="images/icon.jpg"/></a>
-
-	<div class="toggle"></div>
-	<ul class="menu">
-	<li class="active"><a href="#main" >Home</a></li>
-	<li><a href="resume.html">Resume</a></li>
-	<li><a href="blog.html">blog</a></li>
-	<li><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=neil+sahai+illinois&oq=neil+sahai+illi">Google scholar</a></li>
-
-
-	</ul>
-
-	<a href="https://www.linkedin.com/in/neilsahai/" class="lang">linkedin</a>
-	</nav>
+            strings: ['Professional', 'Computer Scientist', 'Entepreneur', 'Problem Solver'],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true,
+        });
+    </script>
 
 
+    <nav>
+
+        <a href="/index.html" class="logo"><img class="logosize" src="images/icon.jpg" /></a>
+
+        <div class="toggle"></div>
+        <ul class="menu">
+            <li class="active"><a href="#main"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="resume.html"><i class="fas fa-user-graduate"></i> Resume</a></li>
+            <li><a href="blog.html"><i class="fas fa-pen-fancy"></i> blog</a></li>
+            <li><a target="_blank" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=neil+sahai+illinois&oq=neil+sahai+illi"><i class="fas fa-graduation-cap"></i> Google scholar</a></li>
+        </ul>
+
+        <a target="_blank" href="https://www.linkedin.com/in/neilsahai/" class="lang">linkedin</a>
+    </nav>
+
+    </section>
+
+    <div class="container" style="text-align: center;padding: 3px; color: #000; background: #fff;">
+        <div class="flex-container">
+            <div>
+                <h3>About</h3>
+                <p style="color: #000">I am very passionate, dynamic, and strategic technology-driven student pursuing a Bachelors of Science in Computer Science. I have a passion for software engineering, cloud computing, and business, I wish to continue to learn and grow
+                    in these fields</p>
+            </div>
+            <div>
+                <h3>Technical Skills</h3>
+                <p style="color: #000">Data Structures and Algorithms JavaScript - Java - Python - C++ - React HTML - CSS - MySQL - Git - AWS </p>
+            </div>
+            <div>
+                <h3>Current Research</h3>
+                <p style="color: #000">Using AI to help diagnose lung cancer from medical images</p>
+            </div>
+        </div>
+    </div>
 
 
-	</section>
+    <footer>
+        <div>
+            <h4>© 2020 Neil Sahai.</h4>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript">
+        /*Responsive Navigation*/
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('.toggle').toggleClass('active')
+
+                $('nav ul').toggleClass('active-menu')
 
 
-
-	<footer>
-
-			 <div class="col-six tab-full">
-				 <div class="copyright">
-						 <span><font color="#4B4A4A">© Copyright Neil Sahai</font> </span>
-						</div>
-				 </div>
-
-
-			 </div> <!-- /row -->
-	</footer>
-
-
-
-
-
-	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
-	<script type="text/javascript">
-
-		  /*Responsive Navigation*/
-	  $(document).ready(function(){
-	 $('.toggle').click(function(){
-		 $('.toggle').toggleClass('active')
-
-		 $('nav ul').toggleClass('active-menu')
-
-
-	 })
- });
-
-	</script>
+            })
+        });
+    </script>
 </body>
+
 </html>
