@@ -77,6 +77,11 @@ body {
     border-radius: 0;
 }
 
+.btn-dark {
+    background: #212121 !important;
+    color: #fff !important;
+}
+
 .fab {
     color: #212121;
 }
