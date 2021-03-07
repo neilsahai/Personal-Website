@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+*::-moz-selection {
+    color: #fff;
+    background: #212121;
+}
+
+*::selection {
+    color: #fff;
+    background: #212121;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    color: #212121;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.mr-20 {
+    margin-right: 0;
+}
+
+.ml-15 {
+    margin-left: 0;
+}
+
+.ml-10 {
+    margin-left: 150px;
+}
+
+.mr-10 {
+    margin-left: 150px;
+}
+
+.ml-20 {
+    margin-left: 0;
+}
+
+.ml-30 {
+    margin-left: 400px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 100px;
+}
+
+.navbar {
+    background: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar .fa-bars {
+    color: #212121 !important;
+}
+
+.nav-link {
+    margin-left: 44px;
+    font-size: 18px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-dark {
+    background: #212121 !important;
+    color: #fff !important;
+}
+
+.fab {
+    color: #212121;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+a:link,
+a:visited {
+    color: #212121;
+}
+
+footer .copyright-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* Portfolio Section */
+
+.portfolio {
+    margin-top: 94px;
+}
+
+.achivements {
+    margin-top: 94px;
+}
+
+.achievemens-box {
+    background-image: url('/assets/img/process.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 540px;
+}
+
+
+/* Typography */
+
+.text-muted {
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    /*use padding to move list item from left to right*/
+    padding-left: 1em;
+}
+
+.mycol-1 ul li:before {
+    content: "–";
+    position: absolute;
+    /*change margin to move dash around*/
+    margin-left: -1em;
+}
+
+@media only screen and (max-width: 800px) {
+    .achivements {
+        text-align: center !important;
+    }
+    .achievemens-box {
+        background-image: none;
+    }
+    .mr-20 {
+        margin-right: 0;
+    }
+    .ml-15 {
+        margin-left: 0;
+    }
+    .ml-10 {
+        margin-left: 0;
+    }
+    .mr-10 {
+        margin-left: 0;
+    }
+    .ml-20 {
+        margin-left: 0;
+    }
+    .ml-30 {
+        margin-left: 0;
+    }
+    .mt-10 {
+        margin-top: 0;
+    }
+    .mb-10 {
+        margin-bottom: 0;
+    }
+}
